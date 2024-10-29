@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API COVID-19</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/estatisticas.js"></script>
+</head>
+<body>
+         <!-- Cabeçalho do site -->    
+         <header>
+            <a href="index.html">
+                <img id="logo" src="img/logo.png" alt="logotipo API" />
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="inicial.html">Pagina Inicial</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="equipe.html">Equipe</a>
+            </nav>
+        </header>
+
+    <main>
+        <section class="descricao">
+            
+            <h2>Descrição do Tema</h2>
+            <h1>Este projeto visa mostrar as informações de casos e mortes de COVID-19 em diferentes
+                 países, além de apresentar gráficos e dados referentes ao Brasil. O objetivo é 
+                 apresentar informações de forma visual e interativa.</p>
+            <h2>Objetivo</h2>
+            <h1>O objetivo é fornecer uma visão clara e compreensível sobre os dados de COVID-19,
+                mostrando esses dados em forma de Mapa contendo os casos confirmados de COVID-19 
+                em todos os países do mundo; Gráfico de Pizza contendo os totais de casos de 
+                COVID-19 em todo o mundo, agrupados por: [Status, Total], sendo que os status 
+                devem considerar casos confirmados, mortos e recuperados; Tabela mostrando casos 
+                de COVID-19 em todos os estados do Brasil, contendo as seguintes informações: 
+                [Sigla, Estado, Casos, Mortes, Suspeitos, Descartados];</h1>
+       
+
+        <section class="mapa">
+            <h2>Mapa de Casos de COVID-19 no Mundo</h2>
+            <div id="mapa-covid" style="width: 100%; height: 500px;"></div>
+        </section>
+
+        <section class="grafico-pizza">
+            <h2>Distribuição Global de Casos de COVID-19</h2>
+            <div id="pizza-covid" style="width: 100%; height: 400px;"></div>
+        </section>
+
+        <section class="tabela-brasil">
+            <h2>Casos de COVID-19 no Brasil</h2>
+            <table id="tabela-covid-brasil">
+                <thead>
+                    <tr>
+                        <th>Sigla</th>
+                        <th>Estado</th>
+                        <th>Casos</th>
+                        <th>Mortes</th>
+                        <th class="ocultar">Suspeitos</th>
+                        <th class="ocultar">Descartados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+           <!-- Rodapé do site -->
+    <footer>
+        <span>API COVID-19</span> <br />
+    </footer>
+</body>
+</html>
+    </footer>
+</body>
+<script src="java/estatisticas.js"></sCRipt>
+</html>
